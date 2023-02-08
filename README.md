@@ -1,7 +1,7 @@
 # An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming
 
 This repository contains the source code for the paper "An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming".
-This works propose an approach to design a Reinforcement Learning (RL) environment using Constraint Programming (CP) 
+This works propose an approach to design a Reinforcement Learning (RL) environment using Constraint Programming (CP) and a training algorithm that does not rely on any custom reward or observation for the job-shop scheduling (JSS) problem.
 
 Check out our HugginFace 🤗 [Space demo](https://huggingface.co/spaces/pierretassel/JobShopCPRL):
 
