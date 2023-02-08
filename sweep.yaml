@@ -1,0 +1,15 @@
+program: main.py
+method: bayes
+metric:
+  name: optim_criteria
+  goal: minimize
+parameters:
+  learning-rate:
+    max: 0.001
+    min: 0.0001
+  target-kl:
+    max: 0.1
+    min: 0.005
+  clip-coef:
+    max: 0.5
+    min: 0.1
