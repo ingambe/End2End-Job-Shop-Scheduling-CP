@@ -5,12 +5,7 @@ This works propose an approach to design a Reinforcement Learning (RL) environme
 
 Check out our HugginFace 🤗 [Space demo](https://huggingface.co/spaces/pierretassel/JobShopCPRL):
 
-<iframe
-	src="https://pierretassel-jobshopcprl.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+[![Title](space.png)](https://huggingface.co/spaces/pierretassel/JobShopCPRL)
 
 
 ## Installation
