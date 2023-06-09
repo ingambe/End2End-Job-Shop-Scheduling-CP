@@ -55,10 +55,14 @@ pip install jss_cp
 For extra performance, the code is compiled using MyPyC
 Checkout the environment repository: [https://github.com/ingambe/JobShopCPEnv](https://github.com/ingambe/JobShopCPEnv)
 
-# Citation
+## Citation
 
 If you use this environment in your research, please cite the following paper:
 
 ```bibtex
 TO BE PUBLISHED
 ```
+
+## License
+
+MIT License
