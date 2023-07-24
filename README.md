@@ -60,7 +60,18 @@ Checkout the environment repository: [https://github.com/ingambe/JobShopCPEnv](h
 If you use this environment in your research, please cite the following paper:
 
 ```bibtex
-@article{Tassel_Gebser_Schekotihin_2023, title={An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming}, volume={33}, url={https://ojs.aaai.org/index.php/ICAPS/article/view/27243}, DOI={10.1609/icaps.v33i1.27243}, number={1}, journal={Proceedings of the International Conference on Automated Planning and Scheduling}, author={Tassel, Pierre and Gebser, Martin and Schekotihin, Konstantin}, year={2023}, month={Jul.}, pages={614-622} }
+@article{Tassel_Gebser_Schekotihin_2023,
+  title={An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming},
+  volume={33},
+  url={https://ojs.aaai.org/index.php/ICAPS/article/view/27243},
+  DOI={10.1609/icaps.v33i1.27243},
+  number={1},
+  journal={Proceedings of the International Conference on Automated Planning and Scheduling},
+  author={Tassel, Pierre and Gebser, Martin and Schekotihin, Konstantin},
+  year={2023},
+  month={Jul.},
+  pages={614-622}
+}
 ```
 
 ## License
