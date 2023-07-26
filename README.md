@@ -1,4 +1,4 @@
-# An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming
+# An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-end-to-end-reinforcement-learning-approach/scheduling-on-taillard-instances)](https://paperswithcode.com/sota/scheduling-on-taillard-instances?p=an-end-to-end-reinforcement-learning-approach)
 
 This repository contains the source code for the paper "An End-to-End Reinforcement Learning Approach for Job-Shop Scheduling Problems Based on Constraint Programming".
 This works propose an approach to design a Reinforcement Learning (RL) environment using Constraint Programming (CP) and a training algorithm that does not rely on any custom reward or observation for the job-shop scheduling (JSS) problem.
