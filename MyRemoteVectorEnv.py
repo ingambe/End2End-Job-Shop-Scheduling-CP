@@ -9,7 +9,7 @@ from ray.rllib.env.base_env import BaseEnv, ASYNC_RESET_RETURN
 from ray.rllib.utils.annotations import PublicAPI
 from ray.rllib.utils.typing import MultiEnvDict, EnvType, EnvID, MultiAgentDict
 from stable_baselines3.common.vec_env.base_vec_env import VecEnvObs
-from stable_baselines3.common.vec_env.util import obs_space_info, dict_to_obs
+from stable_baselines3.common.vec_env.util import dict_to_obs
 
 from MyDummyVecEnv import MyDummyVecEnv
 
@@ -39,7 +39,13 @@ class MyRemoteVectorEnv(BaseEnv):
         self.pending = None  # lazy init
 
         self.observation_space = observation_space
-        self.keys, shapes, dtypes = obs_space_info(self.observation_space)
+        self.keys = []
+        shapes = {}
+        dtypes = {}
+        for key, box in observation_space.items():
+            self.keys.append(key)
+            shapes[key] = box.shape
+            dtypes[key] = box.dtype
 
         self.device = device
 

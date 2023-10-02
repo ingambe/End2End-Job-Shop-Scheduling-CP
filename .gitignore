@@ -1,0 +1,6 @@
+wandb/*
+wandb/**/*
+venv/*
+venv/**/*
+env/*
+env/**/*
