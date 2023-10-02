@@ -28,4 +28,4 @@ COPY . /app
 
 RUN wandb off
 
-RUN python3 -O fast_solve.py
+CMD python3 -O /app/fast_solve.py
