@@ -22,6 +22,8 @@ It is recommended to create a new virtual environment (optional) and install the
 pip install -r requirements.txt
 ```
 
+**Alternatively, you can build a docker container using the docker file at the root of the repository**
+
 ## Training the Reinforcement Learning Agent
 
 The `main.py` script allows training the agent from scratch:
@@ -54,6 +56,10 @@ pip install jss_cp
 
 For extra performance, the code is compiled using MyPyC
 Checkout the environment repository: [https://github.com/ingambe/JobShopCPEnv](https://github.com/ingambe/JobShopCPEnv)
+
+## Question/Need Support?
+
+Open an issue, we will do our best to answer it.
 
 ## Citation
 
